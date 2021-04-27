@@ -1,3 +1,5 @@
+/* General */
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +9,12 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.relative{
+    position: relative;
+}
+
+/* header */
 
 li{
     position: fixed;
@@ -34,9 +42,7 @@ li{
     right: 10%;
 }
 
-.relative{
-    position: relative;
-}
+/* Box */
 
 .box-red{
     background-color: red;
@@ -57,6 +63,14 @@ li{
     height: 100vh
 }
 
+.box-yellow{
+    background-color: yellow;
+    width: 100vw;
+    height: 100vh
+}
+
+/* Testo */
+
 span{
     position: absolute;
     left: 50%;
@@ -64,12 +78,7 @@ span{
     transform: translate(-50%, -30%);
     text-transform: uppercase;
     font-size: 40px;
-}
-
-.box-yellow{
-    background-color: yellow;
-    width: 100vw;
-    height: 100vh
+    text-shadow: 4px 4px #000;
 }
 
 /* colori */
