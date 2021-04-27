@@ -4,16 +4,38 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.relative{
+    position: relative;
+}
+
 .box-red{
     background-color: red;
     width: 100vw;
 }
 
-
+.scarpa{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -70%);
+}
 
 .box-green{
     background-color: green;
     width: 100vw;
+}
+
+span{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -30%);
+    text-transform: uppercase;
+    font-size: 40px;
 }
 
 .box-yellow{
@@ -21,6 +43,15 @@
     width: 100vw;
 }
 
+/* colori */
+
+.c-yellow{
+    color: yellow;
+}
+
+.c-green{
+    color: green;
+}
 /* debug */
 
 .box-red{
