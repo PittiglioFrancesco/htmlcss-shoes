@@ -5,13 +5,32 @@
 }
 
 .box-red{
-    
+    background-color: red;
+    width: 100vw;
 }
 
+
+
 .box-green{
-    
+    background-color: green;
+    width: 100vw;
 }
 
 .box-yellow{
-    
+    background-color: yellow;
+    width: 100vw;
+}
+
+/* debug */
+
+.box-red{
+    height: 100vh;
+}
+
+.box-green{
+    height: 100vh;
+}
+
+.box-yellow{
+    height: 100vh;
 }
