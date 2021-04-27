@@ -8,6 +8,32 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+li{
+    position: fixed;
+    z-index: 1;
+    display: inline-block;
+    margin: 0 20px;
+    margin-top: 1%;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+
+.li3{
+    top: 0%;
+    right: 2%;
+}
+
+.li2{
+    top: 0%;
+    right: 6%;
+}
+
+.li1{
+    top: 0%;
+    right: 10%;
+}
+
 .relative{
     position: relative;
 }
@@ -15,6 +41,7 @@ body{
 .box-red{
     background-color: red;
     width: 100vw;
+    height: 100vh
 }
 
 .scarpa{
@@ -27,6 +54,7 @@ body{
 .box-green{
     background-color: green;
     width: 100vw;
+    height: 100vh
 }
 
 span{
@@ -41,6 +69,7 @@ span{
 .box-yellow{
     background-color: yellow;
     width: 100vw;
+    height: 100vh
 }
 
 /* colori */
@@ -51,17 +80,4 @@ span{
 
 .c-green{
     color: green;
-}
-/* debug */
-
-.box-red{
-    height: 100vh;
-}
-
-.box-green{
-    height: 100vh;
-}
-
-.box-yellow{
-    height: 100vh;
 }
