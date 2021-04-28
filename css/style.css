@@ -42,6 +42,11 @@ li{
     right: 10%;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 /* Box */
 
 .box-red{
